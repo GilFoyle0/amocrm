@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        "strict": true,
+        "target": "ES6",
+        "module": "ESNext",
+        "outDir": "dist",
+        "esModuleInterop": true,
+        "moduleResolution": "node",
+        "skipLibCheck": true,
+        "allowJs": true,
+        "checkJs": true,
+        "jsx": "preserve",
+        "jsxImportSource": "vue",
+        "paths": {
+          "@/*": ["./src/*"],
+        }
+    },
+    "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue"],
+    "exclude": [
+      "node_modues"
+    ]
+}
+
